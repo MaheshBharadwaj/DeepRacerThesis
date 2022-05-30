@@ -1,11 +1,9 @@
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Truth Table for $F=\mathaccentV {bar}016{x}yz+\mathaccentV {bar}016{x}y\mathaccentV {bar}016{z}+xy\mathaccentV {bar}016{z}+x\mathaccentV {bar}016{y}\mathaccentV {bar}016{z}$\relax }}{2}{table.caption.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Complexity of the various tracks developed\relax }}{31}{table.caption.72}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Average reward scores of baseline models\relax }}{41}{table.caption.94}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Average reward of different Adversarial Attacks and Transfer Learned Models AT - Observation Attack AAT - Action Attack\relax }}{47}{table.caption.108}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

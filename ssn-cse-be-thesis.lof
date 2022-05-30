@@ -1,41 +1,28 @@
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Binary Decision Tree for $F=\mathaccentV {bar}016{x}yz+\mathaccentV {bar}016{x}y\mathaccentV {bar}016{z}+xy\mathaccentV {bar}016{z}+x\mathaccentV {bar}016{y}\mathaccentV {bar}016{z}$\relax }}{3}{figure.caption.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Reinforcement Learning\relax }}{4}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Deep Reinforcement Learning\relax }}{5}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Transfer Learning\relax }}{6}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Adversarial Training in Reinforcement Learning\relax }}{7}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Binary Decision Diagram\relax }}{5}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A BDD with duplicated subBDDs.\relax }}{6}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces After removal of duplicate $y$-node\relax }}{7}{figure.caption.17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces After removal of redundant $x$-decision point.\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A BDD where some boolean variables occur more than once on an evaluation path.\relax }}{9}{figure.caption.21}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A BDD which does not have an ordering of variables.\relax }}{11}{figure.caption.24}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ROBDD for $ F = \mathaccentV {bar}016{x}y+x\mathaccentV {bar}016{z} $\relax }}{12}{figure.caption.28}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces An OBDD for the even parity function for four bits.\relax }}{14}{figure.caption.30}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The OBDD for$(x_1 + x_2)\cdot (x_3 + x_4)\cdot (x_5 + x_6)$ with variable ordering $[x_1, x_2, x_3, x_4, x_5, x_6]$.\relax }}{15}{figure.caption.32}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The OBDD for$(x_1 + x_2)\cdot (x_3 + x_4)\cdot (x_5 + x_6)$ with variable ordering $[x_1, x_3, x_5, x_2, x_4, x_6]$.\relax }}{15}{figure.caption.33}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Actor Critic Methods\relax }}{16}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Clipped Loss Graph\relax }}{19}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Agent Inputs\relax }}{21}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Decision Tree for $t=(x_1\&y_1)|(x_2\&y_2)$.\relax }}{23}{figure.caption.41}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces ROBDD for $t=(x_1\&y_1)|(x_2\&y_2)$.\relax }}{24}{figure.caption.42}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Chicane example (Image from \href {https://www.vectorstock.com/royalty-free-vector/chicane-road-circuit-vector-7128004}{Vector Stock})\relax }}{26}{figure.caption.59}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Sweeping vs Sharp Turns (Image from \href {https://go-kart-source.com/go-kart-cornering/}{Go-Kart-Source})\relax }}{27}{figure.caption.61}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Oval Track\relax }}{28}{figure.caption.66}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces One Kink Track\relax }}{29}{figure.caption.67}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Two Kink Track\relax }}{29}{figure.caption.67}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Original Barcelona Racerack (Image from \href {https://www.clipartmax.com/download/m2H7G6d3Z5A0G6d3_circuit-de-barcelona-catalunya-el-circuit-restaurant-barcelona-f1-circuit-map/}{Clipartmax})\relax }}{30}{figure.caption.69}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Barcelona Track in Unity\relax }}{30}{figure.caption.70}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces AWS Asia Pacific Track\relax }}{31}{figure.caption.71}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Components of ML Agents Framework (Image from \href {https://github.com/Unity-Technologies/ml-agents}{ML Agents Github})\relax }}{32}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces PPO Network Architecture\relax }}{34}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces NFA to accept all strings terminating in ``01''\relax }}{29}{figure.caption.56}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces DFA to accept all strings terminating in ``01''.\relax }}{31}{figure.caption.59}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces NFA to accept all strings with third last letter as ``1''.\relax }}{31}{figure.caption.60}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces DFA to accept all strings with third last letter as ``1''.\relax }}{32}{figure.caption.61}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces A simple SCA\relax }}{35}{figure.caption.69}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Lamport diagram representing a scenario of client-server system\relax }}{36}{figure.caption.72}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces System flow Diagram\relax }}{40}{figure.caption.75}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces \centering Oval Track Cumulative Reward. X-axis: Time steps Y-axis: Cumulative Reward\relax }}{36}{figure.caption.80}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces \centering Oval Track Episode Length. X-axis: Time steps Y-axis: Episode Length\relax }}{36}{figure.caption.81}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces \centering One Kink Track Cumulative Reward. X-axis: Time steps Y-axis: Cumulative Reward\relax }}{37}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces \centering One Kink Track Episode Length. X-axis: Time steps Y-axis: Episode Length\relax }}{37}{figure.caption.84}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces \centering Two Kink Track Cumulative Reward. X-axis: Time steps Y-axis: Cumulative Reward\relax }}{38}{figure.caption.86}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces \centering Two Kink Track Episode Length. X-axis: Time steps Y-axis: Episode Length\relax }}{38}{figure.caption.87}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces \centering Barcelona Track Cumulative Reward. X-axis: Time steps Y-axis: Cumulative Reward\relax }}{39}{figure.caption.89}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces \centering Barcelona Track Episode Length. X-axis: Time steps Y-axis: Epsiode Length\relax }}{39}{figure.caption.90}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces \centering AWS Track Cumulative Reward. X-axis: Time steps Y-axis: Cumulative Reward\relax }}{40}{figure.caption.92}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces \centering AWS Track Cumulative Reward. X-axis: Time steps Y-axis: Episode Length\relax }}{40}{figure.caption.93}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces \centering \textit {Blue}: Transfer Learned model, \textit {Pink}: Baseline model. X-axis: Time steps Y-axis: Cumulative Reward \relax }}{42}{figure.caption.97}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces \centering \textit {Blue}: Transfer Learned model, \textit {Red}: Baseline model. X-axis: Time steps Y-axis: Cumulative Reward \relax }}{43}{figure.caption.99}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces \centering \textit {Dark-Blue}: Adversarially Trained(Observation Attack) Transfer Learned model, \textit {Light-Blue}: Transfer Learned model, \textit {Red}: Baseline model. X-axis: Time steps Y-axis: Cumulative Reward \relax }}{44}{figure.caption.103}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces \centering \textit {Green}: Adversarially trained(Action Attack) transfer learned model, \textit {Light-Blue}: Transfer Learned model, \textit {Red}: Baseline model. X-axis: Time steps Y-axis: Cumulative Reward \relax }}{45}{figure.caption.104}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces \centering \textit {Orange}: Adversarially Trained(Observation Attack) Transfer Learned model, \textit {Blue}: Transfer Learned model, \textit {Red}: Baseline model. X-axis: Time steps Y-axis: Cumulative Reward \relax }}{46}{figure.caption.106}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces \centering \textit {Orange}: Adversarially Trained(Action Attack) Transfer Learned model, \textit {Blue}: Transfer Learned model, \textit {Red}: Baseline model. X-axis: Time steps Y-axis: Cumulative Reward \relax }}{46}{figure.caption.107}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
