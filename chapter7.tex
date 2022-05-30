@@ -1,0 +1,15 @@
+% Chapter 7
+
+\chapter{CONCLUSION AND FUTURE WORK}
+
+Reinforcement Learning has become a field that has found practical applications in numerous avenues and has become widely adopted to solve a wide range of industry problems. In our project, we investigated the effectiveness of adversarial training in improving the results of transfer learning in reinforcement learning, and conducted experiments for the same purpose.
+
+We conducted our experiments on 5 different tracks, namely, Oval Track, One Kink Track, Two Kink Track, Barcelona and AWS Track. Out of these 5 tracks, we use the One Kink, Two Kink and AWS Track for transfer learning and adversarial training.
+
+In the first phase of our project, we conducted baseline training experiments to quantify our performance when training on a single track from scratch. This experiment was performed on all 5 tracks.
+
+In the second phase of our project, we trained models for a moderate amount of time(around 1 to 2 million time steps) on a simple track, and then transferred the trained model to a more complex track. After transferring the model, we continued training on the new track for about 8 million time steps. When compared with the baseline trained from scratch, the transfer learnt models were able to achieve 5\% to 7\% better performance when given the same amount of training time. 
+
+In the third phase of our project, we introduced adversarial training into our regimen in two different methods. In the first method, we performed a random noise attack, in order to perturb the sensory inputs of the agent. In the second method, we add an action adversary to the agent which picks random actions during the training process to disturb the inputs to the agent. Both of these methods perform significantly better than vanilla transfer learning by approximately least 60\%.
+
+With these results, we have shown that adversarial training significantly improves the effectiveness of transfer learning in reinforcement learning, and helps the agents generate better representations of their states. In the future, we plan to examine the effectiveness of other adversarial attacks in the future, such as gradient-based attacks. 

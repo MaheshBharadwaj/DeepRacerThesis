@@ -1,0 +1,18 @@
+% Chapter 1
+
+\chapter{INTRODUCTION} % Write in your own chapter title
+%\label{fig:INTRODUCTION}
+%\lhead{CHAPTER 1. \emph{INTRODUCTION}} % Write in your own chapter title to set the page header
+
+Reinforcement Learning (RL) is a branch of artificial intelligence where the agent learns by a constant process of taking actions in the environment and receiving rewards from the environment based on the correctness of the actions taken. RL is particularly useful for simulating use cases which in the real world cannot be experimented with due to the hazardous nature of the experiment such as autonomous driving vehicles.
+
+However, RL becomes difficult to use when we need to train a large number of agents. RL algorithms generally take a lot of time and compute when training from scratch, which poses a problem for tasks that are only marginally different from each other. In such scenarios where tasks are sufficiently similar to each other, Transfer Learning (TL) provides a way to save time and compute by reusing the knowledge already learnt so far. 
+
+TL is uniquely challenging in RL when compared to its contemporaries in Deep Learning because the samples are being generated from a dynamic environment and not from a static dataset. The agent takes certain actions and the rewards gained from those actions are fed back into the agent for further training. There is a lot of inherent variability in the kinds of values that can be generated. Therefore, TL in RL can be quite unpredictable even between marginally different environments. The models get perturbed easily and no transfer of knowledge takes place. In order for TL to perform well, much more robust representations of the state are required. 
+
+Adversarial Training (AT) was initially used in Deep Learning to help protect models from adversarial attacks. Adversarial Attacks involved adding random bits of noise to the inputs that the model receives in order to confuse the model. Only a small amount of noise is required to disturb the models. AT involves the addition of noise to inputs during the training process itself, in order to better prepare the agents against small perturbations in the inputs. This training helps the model build more robust representations of the state space, which also improves the ability of the model to transfer to new environments. We hypothesize that these kinds of robust representations will result in a more improved form of TL for RL tasks.
+
+In our work, we aim to quantify the effectiveness of Transfer Learning with Adversarial Training when it comes to Reinforcement Learning environments. We perform Transfer Learning with Adversarial Training in two different methods and compare its effectiveness to vanilla Transfer Learning in RL environments of varying levels of  similarities. 
+
+
+

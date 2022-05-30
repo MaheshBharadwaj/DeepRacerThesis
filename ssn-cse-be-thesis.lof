@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Binary Decision Tree for $F=\mathaccentV {bar}016{x}yz+\mathaccentV {bar}016{x}y\mathaccentV {bar}016{z}+xy\mathaccentV {bar}016{z}+x\mathaccentV {bar}016{y}\mathaccentV {bar}016{z}$\relax }}{3}{figure.caption.11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Binary Decision Diagram\relax }}{5}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A BDD with duplicated subBDDs.\relax }}{6}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces After removal of duplicate $y$-node\relax }}{7}{figure.caption.17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces After removal of redundant $x$-decision point.\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A BDD where some boolean variables occur more than once on an evaluation path.\relax }}{9}{figure.caption.21}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A BDD which does not have an ordering of variables.\relax }}{11}{figure.caption.24}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ROBDD for $ F = \mathaccentV {bar}016{x}y+x\mathaccentV {bar}016{z} $\relax }}{12}{figure.caption.28}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces An OBDD for the even parity function for four bits.\relax }}{14}{figure.caption.30}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The OBDD for$(x_1 + x_2)\cdot (x_3 + x_4)\cdot (x_5 + x_6)$ with variable ordering $[x_1, x_2, x_3, x_4, x_5, x_6]$.\relax }}{15}{figure.caption.32}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The OBDD for$(x_1 + x_2)\cdot (x_3 + x_4)\cdot (x_5 + x_6)$ with variable ordering $[x_1, x_3, x_5, x_2, x_4, x_6]$.\relax }}{15}{figure.caption.33}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Decision Tree for $t=(x_1\&y_1)|(x_2\&y_2)$.\relax }}{23}{figure.caption.41}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces ROBDD for $t=(x_1\&y_1)|(x_2\&y_2)$.\relax }}{24}{figure.caption.42}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces NFA to accept all strings terminating in ``01''\relax }}{29}{figure.caption.56}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces DFA to accept all strings terminating in ``01''.\relax }}{31}{figure.caption.59}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces NFA to accept all strings with third last letter as ``1''.\relax }}{31}{figure.caption.60}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces DFA to accept all strings with third last letter as ``1''.\relax }}{32}{figure.caption.61}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces A simple SCA\relax }}{35}{figure.caption.69}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Lamport diagram representing a scenario of client-server system\relax }}{36}{figure.caption.72}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces System flow Diagram\relax }}{40}{figure.caption.75}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
