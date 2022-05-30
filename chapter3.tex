@@ -2,23 +2,99 @@
 
 \chapter{LITERATURE SURVEY} % Write in your own chapter title
 
-This chapter covers the literature pertaining to Reinforcment Learning (\ref{lit-rl}), Deep Reinforcement Learning (\ref{lit-drl}), Transfer Learning (\ref{lit-tl}), Adversarial Training (\ref{lit-at}) and Unity ML Agents (\ref{lit-mlagents}).
+This chapter covers the literature pertaining to Reinforcment Learning
+(\ref{lit-rl}), Deep Reinforcement Learning (\ref{lit-drl}), Transfer
+Learning (\ref{lit-tl}), Adversarial Training (\ref{lit-at}) and Unity
+ML Agents (\ref{lit-mlagents}).
 
 \section{REINFORCEMENT LEARNING} \label{lit-rl}
 
-Reinforcement Learning refers to a trial-and-error interaction based approach by which an agent learns to behave in its environment. This is inspired by animal psychology study and has its roots in statistics, psychology and computer science \cite{RLIntro}. Some early real world applications of RL involved the usage of computer simulation enhanced common sense based rules to create a fuzzy logic system to design nuclear power plant control systems \cite{RLNuke}. The usage of multi-layer perceptron as a function approximator was first studied by \cite{RLMLP} for the cart pole problem \cite{RLCartPole}.
+Reinforcement Learning refers to a trial-and-error interaction based
+approach by which an agent learns to behave in its environment. This
+is inspired by animal psychology study and has its roots in
+statistics, psychology and computer science \cite{RLIntro}. Some early
+real world applications of RL involved the usage of computer
+simulation enhanced common sense based rules to create a fuzzy logic
+system to design nuclear power plant control systems
+\cite{RLNuke}. The usage of multi-layer perceptron as a function
+approximator was first studied by \cite{RLMLP} for the cart pole
+problem \cite{RLCartPole}.
 
 \section{DEEP REINFORCEMENT LEARNING} \label{lit-drl}
 
-Deep Reinforcement learning (DRL) has been able to solve a wide range of complex decision-making tasks that were previously out of reach for a machine \cite{DRL2}. Q Learning \cite{Qlearn} is a primitive RL algorithm wherein the the value of the state is updated by performing actions at the state and observing the rewards. Variations of Q-learning allow us to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning \cite{DRL1}. Actor critic DRL algorithims such as DDPG \cite{cont-ddpg} and PPO \cite{ppo}, can be used effectively in continuous state space environments.
+Deep Reinforcement learning (DRL) has been able to solve a wide range
+of complex decision-making tasks that were previously out of reach for
+a machine \cite{DRL2}. Q-learning \cite{Qlearn} is a primitive RL
+algorithm wherein the the value of the state is updated by performing
+actions at the state and observing the rewards. Variations of
+Q-learning allow us to successfully learn control policies directly
+from high-dimensional sensory input using reinforcement learning
+\cite{DRL1}. Actor critic DRL algorithims such as DDPG
+\cite{cont-ddpg} and PPO \cite{ppo} can be used effectively in
+continuous state space environments.
 
 \section{TRANSFER LEARNING} \label{lit-tl}
-Transfer learning is inspired by humans applying knowledge learned previously to solve new tasks in a shorter amount of time and in an improved manner in comparison to approaching the same task from scratch \cite{TLInsp}. In the computer science domain, Transfer Learning is the process of using knowledge learnt in source domains in order to augment training and model performance in a similar target domain \cite{transfer-rl}. \\TL in Deep Learning(DL) has been successfully applied to obtain state of the art performance on a smaller target dataset by transferring the knowledge from a large source dataset \cite{TLDLBasic}. TL in DL has been found to be resilient to the extent that even if the source domains and target domains are quite distant, the performance obtained by TL models outperforms the approach which uses random weight initialization \cite{TLDLPower}. \\TL in RL is more rigid in contrast to the DL equivalents; in RL based algorithms, the agent's representaion of the world(its sensors and actuators)  need to remain the same with flexibility in the state and action space of the agent. In cases where the semantics of the actions vary across tasks, there is a requirement for a mapping function between the two target tasks \cite{TLRLImplement}. Approaches for transfer learning in RL are of five categories, namely, Reward Shaping, Learning from Demonstrations, Policy Transfer, Inter-task Mapping, and Representational Transfer \cite{tl-rl-survey}. Recent research has shown that performance of TL models can be improved by decoupling the processes of learning the domain and the reward function \cite{tl-decoupling}. 
+%
+Transfer learning is inspired by humans applying knowledge learned
+previously to solve new tasks in a shorter amount of time and in an
+improved manner in comparison to approaching the same task from
+scratch \cite{TLInsp}. In the computer science domain, Transfer
+Learning is the process of using knowledge learnt in source domains in
+order to augment training and model performance in a similar target
+domain \cite{transfer-rl}.
+
+TL in Deep Learning(DL) has been successfully applied to obtain state
+of the art performance on a smaller target dataset by transferring the
+knowledge from a large source dataset \cite{TLDLBasic}. TL in DL has
+been found to be resilient to the extent that even if the source
+domains and target domains are quite distant, the performance obtained
+by TL models outperforms the approach which uses random weight
+initialization \cite{TLDLPower}.
+
+TL in RL is more rigid in contrast to the DL equivalents; in RL based
+algorithms, the agent's representaion of the world (its sensors and
+actuators) need to remain the same with flexibility in the state and
+action space of the agent. In cases where the semantics of the actions
+vary across tasks, there is a requirement for a mapping function
+between the two target tasks \cite{TLRLImplement}. Approaches for
+transfer learning in RL are of five categories, namely, Reward
+Shaping, Learning from Demonstrations, Policy Transfer, Inter-task
+Mapping, and Representational Transfer \cite{tl-rl-survey}. Recent
+research has shown that performance of TL models can be improved by
+decoupling the processes of learning the domain and the reward
+function \cite{tl-decoupling}.
+
 \section{ADVERSARIAL ATTACK \& TRAINING} \label{lit-at}
-Adversarial attacks were first investigated in \cite{ad-intro} wherein the impact of adding noise to image data to misclassify the images was studied. Initial methods to make models resilient to these attacks by adding Gaussian Blur and AutoEncoders to negate some impact of adversarial noise was studied by \cite{adreco1}. Other methods for Adversarial defence were studied by performing image transformations \cite{adreco2}.\\ Adversarial Training \cite{AT-Ian} also serves as a good form for defence and is resilient against multiple forms of attacks. Reinforcement Learning models, like Deep Neural Networks are impacted by adversarial attacks \cite{rlad1}. The RL agents can be manipulated by using Fast Gradient Sign Method(FGSM) \cite{rl-fgsm} to perturb observation frames in a Deep Reinforcement Learning setting or dealing with an optimal adversarial agent, trained to drive the system into suboptimal states \cite{rlad2}. Defending RL models from Adversarial Attacks is best done by Adversarial Training methods like \cite{rlat1} which makes use of Stochastic Gradient Langevin Dynamics(SGLD).
+%
+Adversarial attacks were first investigated in \cite{ad-intro} wherein
+the impact of adding noise to image data to misclassify the images was
+studied. Initial methods to make models resilient to these attacks by
+adding Gaussian Blur and AutoEncoders to negate some impact of
+adversarial noise was studied by \cite{adreco1}. Other methods for
+Adversarial defence were studied by performing image transformations
+\cite{adreco2}.
+
+Adversarial Training \cite{AT-Ian} also serves as a good form for
+defence and is resilient against multiple forms of
+attacks. Reinforcement Learning models, like Deep Neural Networks, are
+impacted by adversarial attacks \cite{rlad1}. The RL agents can be
+manipulated by using Fast Gradient Sign Method(FGSM) \cite{rl-fgsm} to
+perturb observation frames in a Deep Reinforcement Learning setting or
+dealing with an optimal adversarial agent, trained to drive the system
+into suboptimal states \cite{rlad2}. Defending RL models from
+Adversarial Attacks is best done by Adversarial Training methods like
+\cite{rlat1} which makes use of Stochastic Gradient Langevin
+Dynamics(SGLD).
+
 \section{UNITY ML AGENTS} \label{lit-mlagents}
 
-The ML agents toolkit is an open source package in unity that provides an intuitive and efficient way to create environments in unity game engine. The ML agents toolkit in unity is used to create 2D and 3D environments that enable reinforcement learning. Previous work with the ML agents toolkit involves creating a single lane track for object avoidance\cite{MLagents1}, and training actor critic algorithms on a third person shooter gaming environment\cite{MLagents2}. 
+The ML agents toolkit is an open source package in Unity that provides
+an intuitive and efficient way to create environments in Unity game
+engine. The ML agents toolkit in Unity is used to create 2D and 3D
+environments that enable reinforcement learning. Previous work with
+the ML agents toolkit involves creating a single lane track for object
+avoidance\cite{MLagents1}, and training actor critic algorithms on a
+third person shooter gaming environment\cite{MLagents2}.
 
 
 

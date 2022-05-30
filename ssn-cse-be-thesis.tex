@@ -1,7 +1,8 @@
 \documentclass[a4paper, 14pt, oneside]{Thesis}
 % \usepackage{ulem}
 \usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
-\usepackage{verbatim} 
+\usepackage{verbatim}
+\usepackage{tabularx}
 \usepackage{pslatex} %To set the font as Times New Roman
 \usepackage{amsbsy} 
 \usepackage{amsfonts}
@@ -14,7 +15,7 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{float}
-\usepackage{minted}
+%\usepackage{minted}
 \usepackage{verbatim} 
 \usepackage{epsfig,graphics}
 \usepackage{amsmath, amsthm, amssymb}
@@ -70,7 +71,7 @@
 %}
 %----------------------------------------------------------------------
 %% ------------------------s----------------------------------------
-\input{bmacros}
+%\input{bmacros}
 \begin{document}
 
 \frontmatter	  % Begin Roman style (i, ii, iii, iv...) page numbering
@@ -106,7 +107,7 @@ Certified further that to the best of my knowledge the work reported herein does
   \settowidth{\auclength}{(HEAD OF THE DEPARTMENT)}
 
 \begin{flushleft}
-  \parbox[t]{\auclength}{\textbf{DR. T.T. MIRNALINEE}\\
+  \parbox[t]{\auclength}{\textbf{DR.~T.~T.~MIRNALINEE}\\
     \textbf{HEAD OF THE
 DEPARTMENT}\\    
     Professor,\\
@@ -114,7 +115,7 @@ DEPARTMENT}\\
     SSN College of Engineering,\\
     Kalavakkam - 603 110}
   \hfill
-  \parbox[t]{\aulength}{\textbf{DR. R.S. MILTON}\\
+  \parbox[t]{\aulength}{\textbf{DR.~R.~S.~MILTON}\\
     \textbf{SUPERVISOR}\\
     Professor,\\
     Department of CSE,\\
@@ -146,35 +147,78 @@ Submitted for the examination held on\ldots\ldots\ldots\ldots
 \acknowledgements{
 We thank GOD, the almighty for giving me strength and knowledge to do this project.
 
-We would like to thank and deep sense of gratitude to our guide \textbf{DR. R.S. MILTON}, Professor, Department of Computer Science and Engineering, for his valuable advice and suggestions as well as his continued guidance, patience and support that helped us to shape and refine our work.
+We would like to thank our guide \textbf{Dr.~R.~S.~MILTON}, Professor,
+for his valuable advice and suggestions as well as his continued
+guidance, patience and support that helped us to shape and refine our
+work.
 
-Our sincere thanks to  \textbf{Dr. T.T. MIRNALINEE}, Professor and Head of the Department of Computer Science and Engineering, for her words of advice and encouragement and we would like to thank our project Coordinator \textbf{    Dr.B. BHARATHI}, Associate Professor, Department of Computer Science and Engineering for her valuable suggestions throughout this project.
+Our sincere thanks to \textbf{Dr.~T.~T.~MIRNALINEE}, Professor and
+Head of the Department of Computer Science and Engineering, for her
+words of advice and encouragement and we would like to thank our
+project Coordinator \textbf{ Dr.~B.~BHARATHI}, Associate Professor,
+Department of Computer Science and Engineering, for her valuable
+suggestions throughout this project.
 
-We express our deep respect to the founder \textbf{Dr. SHIV NADAR}, Chairman, SSN Institutions. We also express our appreciation to our \textbf{Dr. V. E. ANNAMALAI}, Principal, for all the help he has rendered during this course of study.
+We express our deep respect to the founder \textbf{Dr.~SHIV NADAR},
+Chairman, SSN Institutions. We also express our appreciation to our
+\textbf{Dr.~V.~E.~ANNAMALAI}, Principal, for all the help he has
+rendered during this course of study.
 
- We would like to extend our sincere thanks to all the teaching and non-teaching staffs of our department who have contributed directly and indirectly during the course of our project work.
-Finally, We would like to thank our parents and friends for their patience, cooperation and moral support throughout my life. 
-\newline
-\newline
-\newline
-{\bf MAHESH \space\space\space\space}\hfill {\bf PRITHAM IMMANUEL}\hfill {\bf SAI PRAKASH \space} \newline
-{\bf BHARADWAJ K}\hfill {\bf ILANGO}\hfill {\bf \space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space}
-}
+We would like to extend our sincere thanks to all the teaching and
+non-teaching staffs of our department who have contributed directly
+and indirectly during the course of our project work.  Finally, We
+would like to thank our parents and friends for their patience,
+cooperation and moral support throughout my life.}
+
+\vfill
+\begin{tabularx}{1.2\linewidth}{>{\hsize=.8\hsize}X>{\raggedright\hsize=1.2\hsize}X>{\hsize=.8\hsize}X}
+  \textbf{MAHESH BHARADWAJ K} & \textbf{PRITHAM IMMANUEL ILANGO} & \textbf{SAI PRAKASH}
+\end{tabularx}
 \clearpage  % Abstract ended, start a new page
 
 \addtotoc{ABSTRACT} % Add the "Abstract" page entry to the Contents
-\abstract{ \begin{spacing}{2}
-Reinforcement Learning is the branch of artificial intelligence where the agent learns by an iterative process of taking actions in its environment and receiving rewards from the environment based on the effect of the actions taken.
-Reinforcement learning is particularly useful for simulating use cases which in the real world cannot be experimented with due to the hazardous nature of the experiment such as autonomous driving vehicles.
-% The advancement in the practical use of Neural Networks in the recent past has enabled us to use Deep Reinforcement Learning models. In this category of Reinforcement Learning, neural networks are used as function approximators.
-Transfer Learning is popular in deep learning as it increases efficiency and reduces training costs. However, transfer learning in reinforcement learning is significantly harder because of the variation in state space of different tasks.
-In this paper, we aim to study the effects of adversarial training when implementing transfer learning for reinforcement learning. We hypothesize that better representation learning from adversarial training will enhance transfer learning and make it more viable for reinforcement learning tasks.
-We also develop an easy-to-use, customizable  environments in Unity that use the MLagents framework, to train different models.
- We have designed 5 distinct tracks of increasing complexity on which we have trained `cars' to complete a lap successfully using the Proximal Policy Optimization algorithm to perform our experiments.
+\abstract{
+  \begin{spacing}{2}
+    Reinforcement Learning is the branch of artificial intelligence
+    where an agent learns by an iterative process of taking actions
+    in its environment and receiving rewards from the environment
+    based on the effect of the actions taken.  Reinforcement learning
+    is particularly useful for simulating use cases which in the real
+    world cannot be experimented with due to the hazardous nature of
+    the experiment such as autonomous driving vehicles.
+    % The advancement in the practical use of Neural Networks in the
+    % recent past has enabled us to use Deep Reinforcement Learning
+    % models. In this category of Reinforcement Learning, neural
+    % networks are used as function approximators.
+    Transfer Learning is popular in deep learning as it increases
+    efficiency and reduces training costs. However, transfer learning
+    in reinforcement learning is significantly harder because of the
+    variation in state space of different tasks.  In this work, we aim
+    to study the effects of adversarial training when implementing
+    transfer learning for reinforcement learning. We hypothesize that
+    better representation learning for adversarial training will
+    enhance transfer learning and make it more viable for
+    reinforcement learning tasks.  We also develop an easy-to-use,
+    customizable environments in Unity that use the MLagents
+    framework, to train different models.  We have designed 5 distinct
+    tracks of increasing complexity on which we have trained `cars' to
+    complete a lap successfully using the Proximal Policy Optimization
+    algorithm to perform our experiments.
 
-% We use Unity MLAgents framework to build our own environment to perform our experiments on adversarial robustness of the DRL agents. We have designed 5 distinct tracks of increasing complexity on which we have trained `cars' to complete a lap successfully using the PPO algorithm. 
-% Reinforcement Learning typically requires a large amount of time and compute to create an optimised model. This necessitates the need for a robust Transfer Learning technique, which can save time and compute. 
-%  RL does not have such a ubiquitous technique for performing Transfer Learning. The training of models in RL is different from DL because we are sampling a dynamic environment, not a static dataset. Therefore, we require a more robust form of TL, which we hypothesize can be achieved by Adverserial Training.
+    % We use Unity MLAgents framework to build our own environment to
+    % perform our experiments on adversarial robustness of the DRL
+    % agents. We have designed 5 distinct tracks of increasing
+    % complexity on which we have trained `cars' to complete a lap
+    % successfully using the PPO algorithm.  Reinforcement Learning
+    % typically requires a large amount of time and compute to create
+    % an optimised model. This necessitates the need for a robust
+    % Transfer Learning technique, which can save time and compute.
+    % RL does not have such a ubiquitous technique for performing
+    % Transfer Learning. The training of models in RL is different
+    % from DL because we are sampling a dynamic environment, not a
+    % static dataset. Therefore, we require a more robust form of TL,
+    % which we hypothesize can be achieved by Adverserial Training.
+\end{spacing}{2} 
 }
 \clearpage
 %%% DUMMY PAGE FOR TAMIL ABSTRACT WHICH WILL BE PRINTED SEPARATELY
